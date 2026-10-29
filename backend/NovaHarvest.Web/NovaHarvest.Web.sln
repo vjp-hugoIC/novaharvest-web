@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.001.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NovaHarvest.Web", "NovaHarvest.Web.csproj", "{9E206ABA-9566-487B-9037-DBC0EDEBE340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E206ABA-9566-487B-9037-DBC0EDEBE340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E206ABA-9566-487B-9037-DBC0EDEBE340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E206ABA-9566-487B-9037-DBC0EDEBE340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E206ABA-9566-487B-9037-DBC0EDEBE340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5043C327-98AA-4354-9EED-F1844A0F352F}
+	EndGlobalSection
+EndGlobal
