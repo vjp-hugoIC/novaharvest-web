@@ -21,3 +21,12 @@ Flujo de una petición en la Fase 1:
 | Navegador |                              |  Contenedor 'web'  | -----------------> |  index.html      |
 |    Web    | <--------------------------  | (Nginx 1.27-alpine)|                    |  (Estatico)      |
 +-----------+        Respuesta HTML        +--------------------+                    +------------------+
+
+Esquema del flujo de una petición en la Fase 2 (Reverse Proxy):
+
+
++-----------+       HTTP / Port 8080       +--------------------+                    +---------------------+
+|           | -------------------------->  |                    |  Proxy Pass (80)   |                     |
+| Navegador |                              |    Servicio web    | -----------------> |  Servicio backend   |
+|    Web    | <--------------------------  | (Nginx Rev. Proxy) |                    |  (Nginx Simulado)   |
++-----------+        Respuesta HTML        +--------------------+                    +---------------------+
