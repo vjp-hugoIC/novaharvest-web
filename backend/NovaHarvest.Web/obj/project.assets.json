@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alumno.DAM2-13\\.nuget\\packages\\": {}
+    "C:\\Users\\VSPC-210660\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno.DAM2-13\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
+      "projectUniqueName": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
       "projectName": "NovaHarvest.Web",
-      "projectPath": "C:\\Users\\alumno.DAM2-13\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
-      "packagesPath": "C:\\Users\\alumno.DAM2-13\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno.DAM2-13\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\obj\\",
+      "projectPath": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
+      "packagesPath": "C:\\Users\\VSPC-210660\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alumno.DAM2-13\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\VSPC-210660\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
