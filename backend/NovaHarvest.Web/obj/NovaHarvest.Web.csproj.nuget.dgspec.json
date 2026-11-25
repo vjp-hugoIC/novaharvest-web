@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj": {}
+    "d:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj": {}
   },
   "projects": {
-    "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj": {
+    "d:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
+        "projectUniqueName": "d:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
         "projectName": "NovaHarvest.Web",
-        "projectPath": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
+        "projectPath": "d:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\NovaHarvest.Web.csproj",
         "packagesPath": "C:\\Users\\VSPC-210660\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\obj\\",
+        "outputPath": "d:\\Users\\VSPC-210660\\Desktop\\novaharvest-web\\backend\\NovaHarvest.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VSPC-210660\\AppData\\Roaming\\NuGet\\NuGet.Config"
