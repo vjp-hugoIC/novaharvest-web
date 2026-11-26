@@ -6,14 +6,14 @@ namespace NovaHarvest.Web.Pages;
 public class StatusModel : PageModel
 {
     public DateTime ServerTime { get; private set; }
-    public string ServerName { get; private set; }
+    public string ServerName { get; private set; } = "";
     public int Visits { get; private set; }
 
     public void  OnGet()
     {
         ServerTime = DateTime.Now;
         ServerName = Environment.MachineName;
-        SiteStatus.Visits++;
-        Visits = SiteStatus.Visits
+        SiteStats.Visits++;
+        Visits = SiteStats.Visits;
     }
 }

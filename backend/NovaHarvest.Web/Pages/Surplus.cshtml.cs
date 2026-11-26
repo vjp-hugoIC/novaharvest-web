@@ -11,7 +11,7 @@ public class SurplusModel : PageModel
     private const int LowStockKg = 50;
 
 
-    public SurplusModel Surplus { get; } = new()
+    public Surplus Surplus { get; } = new()
     {
       Product = "Cereza Picota",
       Producer = "Huerta Los Castaños",
@@ -31,8 +31,8 @@ public class SurplusModel : PageModel
     public int FullBoxes { get; private set; }
     public int LooseKg { get; private set; }
     public decimal SurplusValue { get; private set; }
-    public string StatusText { get; private set; }
-    public string ProducerNote { get; private set; }
+    public string StatusText { get; private set; } = "";
+    public string ProducerNote { get; private set; } = "";
     public bool IsSoldOut { get; private set; }
 
     public void OnGet()
