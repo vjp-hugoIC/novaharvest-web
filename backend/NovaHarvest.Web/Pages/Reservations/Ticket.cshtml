@@ -1,0 +1,25 @@
+@page "/ticket"
+@{
+    Layout = null;
+    string reservationCode = "RES-0001";
+    string product = "Cereza Picota";
+    int kilos = 20;
+    string pickupLocation = "Cooperativa del Valle del Jerte";
+    DateTime generatedAt = DateTime.Now;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Justificante de reserva - NovaHarvest</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <h1>Justificante de reservas</h1>
+    <p>Reserva: @reservationCode</p>
+    <p>Producto: @product</p>
+    <p>Kilos: @kilos</p>
+    <p>Recogida: @pickupLocation</p>
+    <p>Generado el @generatedAt.ToString("dd/MM/yyyy HH:mm")</p>
+</body>
+</html>
